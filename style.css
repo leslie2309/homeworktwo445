@@ -25,11 +25,11 @@ img:hover {
 .backdrop {
     display: none;
     position: fixed;
-    background: rgba (0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     top:0;
     height: 100vh;
     width: 100vw;
-    z-index:1;
+    z-index: 1;
 }
 
 .modal {
@@ -44,7 +44,7 @@ img:hover {
 }
 
 .modal h1{
-    margin:0;
+    margin: 0;
 }
 
 .modal button {
@@ -65,25 +65,25 @@ img:hover {
     outline: none; 
 }
 
-@media (min-width:400px){
+@media (min-width: 400px) {
     .modal {
         width: 360px;
-        left: calc(50% 190px);
+        left: calc(50% - 190px);
     }
 }
 
 /*form*/
-.form{
+.form {
     display:flex;
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     width: 60%;
     margin: 0 auto; 
 }
 
 label {
-    align-self:flex-start;
-    margin-top:16px;
+    align-self: flex-start;
+    margin-top: 16px;
     margin-bottom: 5px;
 }
 
@@ -93,7 +93,7 @@ label {
 
 .form-input:focus, 
 .form-button {
-    outline:none;
+    outline: none;
     cursor: pointer; 
 }
 
@@ -101,11 +101,11 @@ label {
     background:white;
     border: 1px solid black;
     width: 100%; 
-    padding:3px
+    padding:3px;
 }
 
 textarea {
-    resize:none;
+    resize: none;
     padding: 3px;
 }
 
@@ -122,7 +122,7 @@ textarea {
 }
 
 .submit-button:focus {
-    outline:none;
+    outline: none;
 }
 
 /*header*/
